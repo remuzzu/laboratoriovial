@@ -1,0 +1,21 @@
+# -FrontPage-
+
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+
+<Limit GET POST>
+   order deny,allow
+   deny from all
+   allow from all
+</Limit>
+
+<Limit PUT DELETE>
+   order deny,allow
+   deny from all
+</Limit>
+
+
+AuthType	Basic
+AuthName        "Laboratorio Vial"
+AuthUserFile    /var/www/laboratoriovial/_vti_pvt/service.pwd
+AuthGroupFile   /var/www/laboratoriovial/_vti_pvt/service.grp
+

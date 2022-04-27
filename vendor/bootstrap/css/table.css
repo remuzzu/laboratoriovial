@@ -1,0 +1,189 @@
+p{
+  margin-bottom:3px;
+}
+
+p:first-child{
+  margin: 0px;
+}
+
+label{
+  color: rgb(64, 92, 96);
+  position: relative;
+}
+
+/*********************************/
+/*             Principal         */
+#principal {
+  display: block;
+  padding: 3px 6px;
+  margin-top:10px;
+  text-align:justify;
+  font: 80% "Century Gothic", Arial, Helvetica, sans-serif;
+  float:left;
+  width:95%;
+}
+
+#principal h2{
+  text-align:center;
+  color: #669;
+}
+
+#principal p {
+  text-align:left;
+  padding: 6px;
+  font-family:"Century Gothic";
+  font-size:10pt;
+}
+
+#principal caption{
+  font-size:20px;
+}
+
+#principal img{
+  border:none;
+}
+
+#principal img.foto{
+  width: 200px;
+  height:160px;
+}
+
+#principal img.imag{
+  width:50px;
+  height:40px;
+  align:center;
+}
+
+#tablaCurso img.imag2{
+  width:25px;
+  height:30px;
+  align:left;
+}
+
+#principal img.map{
+  width:90%;
+  align:center;
+  margin:5%; 
+}
+
+#principal img.curso{
+  width:100px;
+  height:80px;
+  margin:5%;
+}
+
+#principal img.ensAL{
+  width:200px;
+  height:240px;
+  align:center;
+}
+
+#principal img.ensAN{
+  width:240px;
+  height:200px;
+  align:center;
+}
+
+#principal img.ens{
+  width:100px;
+  height:80px;
+  align:center;
+}
+
+#principal img.ensAL2{
+  width:100px;
+  height:240px;
+  align:center;
+}
+
+#principal img.ensAL3{
+  width:150px;
+  height:240px;
+  align:center;
+}
+
+/*********************************/
+/*              Table            */
+table {
+  border-collapse:collapse;
+  border-left:1px solid #686868;
+  border-right:1px solid #686868;
+  font:0.8em/145% 'Trebuchet MS',helvetica,arial,verdana;
+  color: #333;
+  background:#EFF4FB;
+  font-family:"Century Gothic";
+}
+
+#tablaCurso, #tablaAccion, #tablaPersonal {
+  border: 1px solid #ACCFE8;
+  font: 80% "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size:12px;
+  border-spacing:25px;
+  width:100%;
+  font-family:"Century Gothic";
+}
+
+.thNew {
+  background-image:url(Imagenes/boton.jpg);
+  height:15%;
+}
+
+#tablaCurso th, #tablaAccion th {
+  background: #d0dafd;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 12px 15px;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  color: #039;
+  padding:5px;
+  border-bottom: 1px solid #c8d4fd;
+  text-align:center;
+}
+
+#tablaCurso td {
+  padding: 8px;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  color: #669;
+  text-align:center;
+}
+
+.end {
+   background-image:url(Cursos/finalizado.png);
+}
+
+.endI {
+   background-image:url(Cursos/finalizadoI.png);
+}
+
+.sinCupo {
+   background-image:url(Cursos/sinCupo.png);
+}
+
+.sinCupo2 {
+   background-image:url(Imagenes/sinCupo.png);
+}
+
+.endII {
+   background-image:url(Cursos/finalizadoII.png);
+}
+
+.col-impar {background: #eff2ff;}
+.col-par {background: #e8edff;}
+.col-ancho3{width="20";}
+
+th.ancho1{width="6%";}
+th.ancho2{width="9%";}
+th.ancho3{width="28%";}
+th.ancho4{width="10%";}
+th.ancho5{width="16%";}
+th.ancho6{width="14%";}
+th.ancho7{width="7%";}
+th.ancho8{
+  width="250px";
+  text-align:center;
+}
+th.ancho9{width="3%";}
+th.ancho10{width="24%";}
+

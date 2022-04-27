@@ -1,0 +1,62 @@
+<main id="main">
+    <section id="about">
+        <div class="container wow fadeInUp">
+            <div class="row about-container">
+                <div class="col-lg-12 content order-lg-1 order-2" style="text-align: justify;">
+                    <h2 class="title">MAESTRIA EN INGENIERIA VIAL</h2>
+                    <div class="icon-box">
+                        <h4 class="title" style="text-align: left;">Facultad de Ciencias Exactas, Ingeniería y
+                            Agrimensura</h4>
+                        <p class="description">Universidad Nacional de Rosario</p>
+                        <p class="description">La carrera es <strong>semiestructurada</strong>, es decir, algunas
+                            asignaturas
+                            son obligatorias y el resto es el alumno quien debe proponer cuales cursar, en base a
+                            las asignaturas ofrecidas anualmente, y que estén relacionadas con el tema de
+                            tesis.
+                        </p>
+                        <p class="description">El requisito es cumplimentar un mínimo de horas de cursado. La fecha de
+                            inscripción no es fija, se puede realizar en cualquier época del año.</p>
+                        <p class="description"><strong>Temas de tesis:</strong> la carrera aborda todos los relacionados
+                            al
+                            área vial, por lo que se puede proponer el que más le interese al alumno, así como el
+                            director. Esto será evaluado por la Comisión Asesora de la Carrera, quien lo debe
+                            aprobar.
+                        </p>
+                        <p class="description">Para conocer algunas Líneas de trabajo de los docentes de nuestra
+                            Facultad en el área, los invitamos a visitar la sección de <strong>actividades del laboratorio: </strong>
+                            <a href="https://www.fceia.unr.edu.ar/laboratoriovial/publicaciones.php">publicaciones, </a>
+                            <a href="https://www.fceia.unr.edu.ar/laboratoriovial/proyectos.php">proyectos, </a>
+                            <a href="https://www.fceia.unr.edu.ar/laboratoriovial/convenios.php">convenios, </a>
+                            y la página web del <a href="https://web.fceia.unr.edu.ar/es/institutodeestudiodetransporte.html">Instituto de Estudios de
+                                Transporte</a>
+                        </p>
+                        <p class="description">Los docentes de estos Institutos participan en la organización de la
+                            carrera, en el
+                            dictado de asignaturas, y en muchos casos como directores de tesis.
+                        </p>
+
+                        <input type="checkbox" id="chMailing" name="chMailing" onclick="validarCh()">
+                        <label for="chMailing"> <strong> Suscribirse a la lista de la Maestria Vial para
+                                recibir información de los cursos </strong></label>
+                    </div>
+
+
+                    <div class="col-md-12" style="text-align: center;">
+                        <input type="button" class="btn btn-primary btn-lm" value="Documentacion a presentar"
+                            onClick="document.location='cursos/Informacion sobre la Maestria en Ingenieria Vial UNR.pdf'">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<script>
+    function validarCh(){
+        const cb = document.getElementById('chMailing');
+        if (cb.checked){
+            window.location.href = "cursos.php?frm=mailing";
+        }
+    }
+</script>

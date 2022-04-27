@@ -1,0 +1,33 @@
+ Datos del programa backmod desde excel
+ Capas Mediciones Tipo
+ 4   2   3 
+ Definicion de Medicion
+ 105  320  577  1900  2700  3610  2 
+ Distancias y Mediciones
+ 0  250 
+ 700  492 
+ Caracteristicas de la Estructura
+ Tipo Densidad
+ 1  3  5  3 
+ 23  23  23  23 
+ Imterfaces
+ 1  1  1 
+ Modulos y Ecuaciones de Mr
+ 340  217  0  40 
+ 0  0  0  0 
+ 0  0  0  0 
+ 0  0  0  0 
+ 0  0  0  0 
+ 10000  900  700  200 
+ 300  150  150  15 
+ Modulos Poisson
+ 35  40  40  40 
+ Alturas
+ 50  200  200 
+ Hsub dem tom tomin pat tod fac
+ 151  50  1  2  101  1  100 
+ Funciones para ajuste no lineal
+ 0  0  0  0  0  0 
+ 0  0  0  0  0  0 
+ 0  0  0  0  0  0 
+ 0  0  0  0  0  0 

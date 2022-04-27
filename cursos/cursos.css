@@ -1,0 +1,24 @@
+#tablaCurso td {
+  padding: 8px;
+  /*border-right: 1px solid rgba(255,255,255,.4);
+  border-left: 1px solid rgba(255,255,255,.4);
+  border-top: 1px solid rgba(255,255,255,.4);
+  border-bottom: 1px solid rgba(255,255,255,.4);*/
+  text-align:center;
+}
+
+img.imag{
+  width:50px;
+}
+
+img.imag2{
+  width:35px;
+}
+
+.row-active {
+  background: #e6a756;
+}
+/*
+.row-transparente {
+  background:#e0e0e0;
+}*/

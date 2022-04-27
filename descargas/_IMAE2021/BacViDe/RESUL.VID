@@ -1,0 +1,66 @@
+
+     RESULTADOS PROGRAMA VIDA
+     DATOS ESTRUCTURA
+      CAPA      TIPO   ESPESOR   PESO ESP MODULO/CA    COEF.B    COEF.C   POISSON  INTERFAZ(0=NOLIG)
+         1        -1                2300                                      35         1
+         2         3       200      2300       250                            40         1
+         3         3         0      2300        80                            40         0
+
+     CRITERIOS DE FALLA 
+                     FISURACION                            AHUELLAMIENTO
+     CAPA    Epst6 ó St6      alfa     %Asf. %VidaRem.    Epsz6      alfa
+        1          21300       400       270      1000
+        2                                                     1    125000
+        3                                                     1     60000
+
+     DATOS CARGA
+     RADIO DE CARGA    PRESION    INTEREJE
+           105           577         310
+
+
+
+
+ Capa Tipo  Altura  Modulo  Ept(u)   Tens.      Nadm  Epz(u)      Nadm
+    1   1.     40.   3000.   -310.            583485.                   0
+    2   3.    200.    250.                             1222.    3050792.
+    3   3.      0.     80.                             1043.     134434.
+
+ Capa Tipo  Altura  Modulo  Ept(u)   Tens.      Nadm  Epz(u)      Nadm
+    1   1.     50.   3000.   -326.            480134.                   0
+    2   3.    200.    250.                             1086.    4762202.
+    3   3.      0.     80.                              982.     182758.
+
+ Capa Tipo  Altura  Modulo  Ept(u)   Tens.      Nadm  Epz(u)      Nadm
+    1   1.     60.   3000.   -325.            490706.                   0
+    2   3.    200.    250.                              960.    7509224.
+    3   3.      0.     80.                              916.     251530.
+
+ Capa Tipo  Altura  Modulo  Ept(u)   Tens.      Nadm  Epz(u)      Nadm
+    1   1.     40.   4000.   -302.            298137.                   0
+    2   3.    200.    250.                             1149.    3869264.
+    3   3.      0.     80.                             1028.     146458.
+
+ Capa Tipo  Altura  Modulo  Ept(u)   Tens.      Nadm  Epz(u)      Nadm
+    1   1.     50.   4000.   -309.            276021.                   0
+    2   3.    200.    250.                              998.    6507646.
+    3   3.      0.     80.                              959.     205511.
+
+ Capa Tipo  Altura  Modulo  Ept(u)   Tens.      Nadm  Epz(u)      Nadm
+    1   1.     60.   4000.   -267.            304635.                   0
+    2   3.    200.    250.                              869.   10789783.
+    3   3.      0.     80.                              886.     292523.
+
+ Capa Tipo  Altura  Modulo  Ept(u)   Tens.      Nadm  Epz(u)      Nadm
+    1   1.     40.   5000.   -292.            186771.                   0
+    2   3.    200.    250.                             1085.    4803558.
+    3   3.      0.     80.                             1014.     157719.
+
+ Capa Tipo  Altura  Modulo  Ept(u)   Tens.      Nadm  Epz(u)      Nadm
+    1   1.     50.   5000.   -293.            188137.                   0
+    2   3.    200.    250.                              928.    8520234.
+    3   3.      0.     80.                              939.     227710.
+
+ Capa Tipo  Altura  Modulo  Ept(u)   Tens.      Nadm  Epz(u)      Nadm
+    1   1.     60.   5000.   -253.            219496.                   0
+    2   3.    200.    250.                              799.   14637001.
+    3   3.      0.     80.                              860.     333811.

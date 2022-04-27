@@ -1,0 +1,82 @@
+
+ PROGRAMA BACKMOD IMAE PARA AJUSTE DE MODULOS
+
+
+ MEDICION BENKELMAN DOBLE
+   MODELIZACION DE LA CARGA          GEOMETRIA DEL SISTEMA
+    radio  presiขn intereje      pata-1  pata-2   trocha
+   105.00   577.00   320.00       2700.    3610.    1900.       2.
+
+
+ DEFORMACIONES MEDIDAS
+   DISTANCIA  mm    0. 250.
+  DEFLEX.mm/1000  700. 492.
+
+
+ DATOS ESTRUCTURA
+     CAPA    ESPESOR      TIPO   MODULO/CA   COEF.B   COEF.C    POISSON  INTERFAZ(0=NO LIG)
+       1       50.0       DATO        340.                       0.35        1
+       2      200.0  INCOGNITA                 0.00     0.00     0.40        1
+       3      200.0   BARKER_S                                   0.40        1
+       4        0.0  INCOGNITA                 0.00     0.00     0.40        0
+
+
+
+ออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ
+                                                                           PASO=   1
+  MODULOS DE LAS SUBCAPAS / COEF.A DE LA EC.CONSTITUTIVA
+      1      2      3      4
+   340.   217.   150.    40.
+     0.     0.     0.     0.
+   0.00   0.00   0.00   0.00
+   0.00   0.00   0.00   0.00
+
+
+ FORMA DE LA DEFORMADA  (DEFLEX.   mm/1000)
+ DISTANC        0.   250.
+ MEDIDO       700.   492.
+ CALCULADO    703.   496.
+ออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ
+                                                                           PASO=   1
+  MODULOS DE LAS SUBCAPAS / COEF.A DE LA EC.CONSTITUTIVA
+      1      2      3      4
+   340.   217.   150.    40.
+     0.     0.     0.     0.
+   0.00   0.00   0.00   0.00
+   0.00   0.00   0.00   0.00
+
+
+ FORMA DE LA DEFORMADA  (DEFLEX.   mm/1000)
+ DISTANC        0.   250.
+ MEDIDO       700.   492.
+ CALCULADO    700.   492.
+ออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ
+                                                                           PASO=   2
+  MODULOS DE LAS SUBCAPAS / COEF.A DE LA EC.CONSTITUTIVA
+      1      2      3      4
+   340.   217.   150.    40.
+     0.     0.     0.     0.
+   0.00   0.00   0.00   0.00
+   0.00   0.00   0.00   0.00
+
+
+ FORMA DE LA DEFORMADA  (DEFLEX.   mm/1000)
+ DISTANC        0.   250.
+ MEDIDO       700.   492.
+ CALCULADO    700.   492.
+ออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ
+                                                                           PASO=   2
+  MODULOS DE LAS SUBCAPAS / COEF.A DE LA EC.CONSTITUTIVA
+      1      2      3      4
+   340.   217.   150.    40.
+     0.     0.     0.     0.
+   0.00   0.00   0.00   0.00
+   0.00   0.00   0.00   0.00
+
+
+ FORMA DE LA DEFORMADA  (DEFLEX.   mm/1000)
+ DISTANC        0.   250.
+ MEDIDO       700.   492.
+ CALCULADO    700.   492.
+ออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ
+   216.

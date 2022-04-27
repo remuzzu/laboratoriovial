@@ -1,0 +1,6 @@
+Este software es una herramienta muy versátil para el diseño y verificación de estructuras de pavimentos flexibles. 
+La veracidad de los resultados obtenidos dependerá de la confiabilidad de los datos de entrada 
+(tránsito, clima, materiales, construcción, mantenimientos) y de la experiencia o juicio del diseñador. 
+
+El Laboratorio Vial no es responsable de los resultados obtenidos. 
+Su utilización se realiza bajo la única y exclusiva responsabilidad del usuario.
