@@ -1,10 +1,5 @@
 <?php
-require "entity/pista.php";       //Tiene definida las funciones basicas de insertar, read, delete, edit
-
-/* Modificado el 08/04/22 para probar el submit del modal
-require "pistas/funciones/funcs.php";        //Detalle de las funciones especificadas en funcCREATE.php
-require "pistas/funciones/funcCREATE.php";   //Funciones requeridas de validaciones del lado del cliente
-*/
+require "entity/pista.php";
 ?>
 
 <main id="main">
@@ -91,7 +86,10 @@ require "pistas/funciones/funcCREATE.php";   //Funciones requeridas de validacio
 				}
 			],
 			// Ocultamos la 1er.columna que contiene el ID para poder editar/eliminar
-			"aoColumnDefs": [ { "sClass": "dpass", "aTargets": [ 0 ] } ] // first column in visible columns array gets class "dpass"
+			"aoColumnDefs": [{
+				"sClass": "dpass",
+				"aTargets": [0]
+			}] // first column in visible columns array gets class "dpass"
 			//"aoColumnDefs": [{
 			//	"bVisible": false,
 			//	"aTargets": [0]
@@ -189,22 +187,20 @@ require "pistas/funciones/funcCREATE.php";   //Funciones requeridas de validacio
 				});
 			}
 		});
-		
-		$('.idPista').on('click','tablaPista tbody tr td', function()
-		{
+
+		$('.idPista').on('click', 'tablaPista tbody tr td', function() {
 			columna = parseInt($(this).index());
-			idFila	= this.closest("tr").className
-	
+			idFila = this.closest("tr").className
+
 			alert($('.' + idFila + ' td').eq(columna).text());
 		});
-		
+
 		//Borrar
 		$(document).on("click", ".btnBorrar", function() {
 			fila = $(this);
-			
-			idPista = parseInt($(this).closest('tr').find('td:eq(0)').text());
-			var nombre = parseInt($(this).closest('tr').find('td:eq(1)').text());
-			
+
+			idPista = parseInt(fila.closest("tr").find('td:eq(0)').text());
+			var nombre = parseInt(fila.closest("tr").find('td:eq(1)').text());
 
 			var respuesta = confirm("¿Está segur@ de borrar la pista " + nombre + "?");
 			if (respuesta) {
@@ -220,6 +216,29 @@ require "pistas/funciones/funcCREATE.php";   //Funciones requeridas de validacio
 					}
 				});
 			}
+		});
+
+		//Editar        
+		$(document).on("click", ".btnEditar", function() {
+			fila = $(this).closest("tr");
+
+			idPista = parseInt(fila.find('td:eq(0)').text());
+			var nombre = parseInt(fila.find('td:eq(1)').text());
+			var ubicacion = parseInt(fila.find('td:eq(2)').text());
+			
+			console.log(ubicacion);
+			var superficie = parseInt(fila.find('td:eq(3)').text());
+
+			$("#nombre").val(nombre);
+			$("#ubicacion").val(ubicacion);
+			$("#superficie").val(superficie);
+			
+			$(".modal-header").css("background-color", "#007bff");
+			$(".modal-header").css("color", "white");
+			
+			$(".modal-title").text("Editar Usuario");
+			
+			$('#modalCRUD').modal('show');
 		});
 	});
 
