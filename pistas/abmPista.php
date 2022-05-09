@@ -75,12 +75,12 @@ require "entity/pista.php";
 				{
 					"defaultContent": "<div class='text-center'>" +
 						"<div class='btn-group'>" +
-						"<button class='btn btn-primary btn-sm btnEditar'>" +
-						"<i class='fa fa-pencil fa-lg'></i>" +
-						"</button>" +
-						"<button class='btn btn-danger btn-sm btnBorrar'>" +
-						"<i class='fa fa-trash fa-lg'></i>" +
-						"</button>" +
+							"<button class='btn btn-primary btn-sm btnEditar'>" +
+								"<i class='fa fa-pencil fa-lg'></i>" +
+							"</button>" +
+							"<button class='btn btn-danger btn-sm btnBorrar'>" +
+								"<i class='fa fa-trash fa-lg'></i>" +
+							"</button>" +
 						"</div>" +
 						"</div>"
 				}
@@ -220,23 +220,27 @@ require "entity/pista.php";
 
 		//Editar        
 		$(document).on("click", ".btnEditar", function() {
-			fila = $(this).closest("tr");
+			fila = $(this).closest("tr",);
 
 			idPista = parseInt(fila.find('td:eq(0)').text());
-			var nombre = parseInt(fila.find('td:eq(1)').text());
-			var ubicacion = parseInt(fila.find('td:eq(2)').text());
+			var nombre = fila.find('td:eq(1)').text();
+			var ubicacion = fila.find('td:eq(2)').text();
+			var superficie = fila.find('td:eq(3)').text();
 			
-			console.log(ubicacion);
-			var superficie = parseInt(fila.find('td:eq(3)').text());
-
 			$("#nombre").val(nombre);
 			$("#ubicacion").val(ubicacion);
-			$("#superficie").val(superficie);
 			
+			if (superficie == "Asfáltica"){
+				$('#superficie > option[value="74"]').attr('selected', 'selected');
+				
+			} else {
+				$('#superficie > option[value="75"]').attr('selected', 'selected');
+			}
+
 			$(".modal-header").css("background-color", "#007bff");
 			$(".modal-header").css("color", "white");
 			
-			$(".modal-title").text("Editar Usuario");
+			$(".modal-title").text("Editar Pista");
 			
 			$('#modalCRUD').modal('show');
 		});
