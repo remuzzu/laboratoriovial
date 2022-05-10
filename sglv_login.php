@@ -41,7 +41,7 @@ TIENE QUE ESTAR SI O SI ANTES DE LA ETIQUETA <HEADER> SINO ¡NO FUNCIONA! -->
     <!--==========================
     Hero Section (Imagen del menú)
 	============================-->
-	<section id="hero" style="background: url(assets/img/ensayos.jpg) top center; 
+	<section id="hero" style="background: url(assets/hero/ensayos.jpg) top center; 
 		background-size: cover; height: 70vh;">
 		<div class="hero-container">
             <h1>Sistema de Gerenciamiento<br>del Laboratorio Vial</h1>

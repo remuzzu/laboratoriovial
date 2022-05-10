@@ -21,7 +21,7 @@ if ($vieneDe=='mailing'){
     Hero Section (Imagen del menú) -- 
     Solo aparece en el INICIO, con el resto del menu no hay nada
 	============================-->
-    <section id="hero" style="background: url(assets/img/curso.jpg) top center; 
+    <section id="hero" style="background: url(assets/hero/curso.jpg) top center; 
             background-size: cover;
             height: 70vh;">
         <div class="hero-container">

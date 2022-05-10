@@ -9,7 +9,8 @@
     <!--==========================
     Hero Section (Imagen del menú)
 	============================-->
-	<section id="hero" style="background: url(img/hero-bg.jpg) top center; background-size: cover;">
+	<section id="hero" style="background: url(assets/hero/index.jpg) top center; background-size: cover;
+            height: 70vh;">
 		<div class="hero-container">
 			<!--<img src="assets/img/imae.png" alt="" title="" /></img><br>-->
 			<h1>Imae</h1>

@@ -27,19 +27,12 @@ if (isset($_SESSION['id_usuario'])) {
 <?php include("head.html"); ?>
 
 <body>
-    <?php include("menu.html"); ?>
+    <?php include("menu-2.html"); ?>
     
     <!--==========================
     Hero Section (Imagen del menú)
 	============================-->
-	<section id="hero" style="background: url(img/fondo-sglv.jpg) top center; 
-		background-size: cover; height: 20vh;">
-    	<div class="hero-container">
-			<!--<img src="assets/img/imae.png" alt="" title="" /></img><br>-->
-			<!--<a href="#about" class="btn-get-started">Get Started</a>-->
-		</div>
-	</section><!-- #hero -->
-
+	
     <?php include("descargas/file.php"); ?>
     
     <?php include("footer.html"); ?>
