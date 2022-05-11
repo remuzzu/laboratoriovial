@@ -27,7 +27,7 @@ if (isset($_SESSION['id_usuario'])) {
 <?php include("head.html"); ?>
 
 <body>
-    <?php include("menu-2.html"); ?>
+    <?php include("menu.html"); ?>
     
     <!--==========================
     Hero Section (Imagen del menú)

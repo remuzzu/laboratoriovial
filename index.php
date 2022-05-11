@@ -4,25 +4,41 @@
 <?php include("head.html"); ?>
 
 <body>
-    <?php include("menu.html"); ?>
-    
-    <!--==========================
+	<?php include("menu-index.html"); ?>
+
+	<!--==========================
     Hero Section (Imagen del menú)
 	============================-->
-	<section id="hero" style="background: url(assets/hero/index.jpg) top center; background-size: cover;
-            height: 70vh;">
-		<div class="hero-container">
-			<!--<img src="assets/img/imae.png" alt="" title="" /></img><br>-->
-			<h1>Imae</h1>
-			<h2>Facultad de Ciencias Exactas Ingeniería y Agrimensura</h2>
-			<h2>Universidad Nacional de Rosario</h2>
-			<!--<a href="#about" class="btn-get-started">Get Started</a>-->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<section id="hero" style="background: url(assets/hero/index.jpg) top center; background-size: cover; height: 70vh;">
+					<div class="hero-container">
+						<h1>Imae</h1>
+						<h2>Facultad de Ciencias Exactas Ingeniería y Agrimensura</h2>
+						<h2>Universidad Nacional de Rosario</h2>
+					</div>
+				</section>
+			</div>
+			<div class="carousel-item">
+				<section id="hero" style="background: url(assets/hero/curso.jpg) top center; background-size: cover; height: 70vh;">
+					<div class="hero-container">
+						<h1>Imae</h1>
+						<h2>Facultad de Ciencias Exactas Ingeniería y Agrimensura</h2>
+						<h2>Universidad Nacional de Rosario</h2>
+					</div>
+				</section>
+			</div>
 		</div>
-    </section><!-- #hero -->
-    
-    <?php include("inicio/inicio.html"); ?>
-    
-    <?php include("footer.html"); ?>
+	</div>
+
+	<?php include("inicio/inicio.html"); ?>
+
+	<?php include("footer.html"); ?>
 </body>
 
 <?php include("inicio/modal.php"); ?>

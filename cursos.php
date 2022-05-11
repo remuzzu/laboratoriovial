@@ -17,24 +17,6 @@ if ($vieneDe=='mailing'){
 <body>
     <?php include("menu.html"); ?>
 
-    <!--==========================
-    Hero Section (Imagen del menú) -- 
-    Solo aparece en el INICIO, con el resto del menu no hay nada
-	============================-->
-    <section id="hero" style="background: url(assets/hero/curso.jpg) top center; 
-            background-size: cover;
-            height: 70vh;">
-        <div class="hero-container">
-            <!--<img src="assets/img/imae.png" alt="" title="" /></img><br>-->
-            <h1>Cursos de Posgrado en Ingeniería Vial<br>Acreditables para la Maestría en
-                Ingeniería Vial</h1>
-            <!--<h2>Facultad de Ciencias Exactas Ingeniería y Agrimensura</h2>
-            <h2>Escuela de Posgrado y Educación Continua</h2>
-            <h2>Universidad Nacional de Rosario</h2>-->
-            <!--<a href="#about" class="btn-get-started">Get Started</a>-->
-        </div>
-    </section><!-- #hero -->
-
     <?php
     switch ($vieneDe) {
         case "cursos":

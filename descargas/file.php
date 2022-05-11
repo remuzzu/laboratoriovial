@@ -14,10 +14,10 @@ include_once('conexion.php');
 
 
 <main id="main">
-    <section id="about">
+    <section id="about" style="margin-top: 50px;">
         <div class="container wow fadeInUp">
             <div class="row about-container">
-                <h2>
+                <h2 class="col-12">
                     <?php
                     //isset comprueba si una variable está definida o no
                     if (isset($_SESSION['id_usuario'])) {

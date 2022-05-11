@@ -3,7 +3,7 @@ descarga_login.php PORQUE LLAMABA A UN header
 Y PARA ESTO TIENE QUE ESTAR SI O SI ANTES DE LA ETIQUETA <HEADER> SINO ¡NO FUNCIONA! -->
     
 <main id="main">
-    <section id="about">
+    <section id="about" style="margin-top: 50px;">
         <div class="container wow fadeInUp">
             <div class="row justify-content-center">
                 <div class="col-md-6 text-center">
