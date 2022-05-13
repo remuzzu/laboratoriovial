@@ -38,16 +38,6 @@ TIENE QUE ESTAR SI O SI ANTES DE LA ETIQUETA <HEADER> SINO ¡NO FUNCIONA! -->
 <body>
     <?php include("menu.html"); ?>
     
-    <!--==========================
-    Hero Section (Imagen del menú)
-	============================-->
-	<section id="hero" style="background: url(assets/hero/ensayos.jpg) top center; 
-		background-size: cover; height: 70vh;">
-		<div class="hero-container">
-            <h1>Sistema de Gerenciamiento<br>del Laboratorio Vial</h1>
-		</div>
-    </section><!-- #hero -->
-
     <?php include("sglv/login.php"); ?>
     
     <?php include("footer.html"); ?>

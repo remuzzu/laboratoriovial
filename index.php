@@ -13,6 +13,7 @@
 		<ol class="carousel-indicators">
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
 		</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
@@ -28,6 +29,16 @@
 				<section id="hero" style="background: url(assets/hero/curso.jpg) top center; background-size: cover; height: 70vh;">
 					<div class="hero-container">
 						<h1>Imae</h1>
+						<h2>Facultad de Ciencias Exactas Ingeniería y Agrimensura</h2>
+						<h2>Universidad Nacional de Rosario</h2>
+					</div>
+				</section>
+			</div>
+
+			<div class="carousel-item">
+				<section id="hero" style="background: url(assets/hero/personal.jpg) top center; 	background-size: cover; height: 70vh;">
+					<div class="hero-container">
+						<h1>Nuestro Equipo</h1>
 						<h2>Facultad de Ciencias Exactas Ingeniería y Agrimensura</h2>
 						<h2>Universidad Nacional de Rosario</h2>
 					</div>

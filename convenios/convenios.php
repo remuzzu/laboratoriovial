@@ -12,7 +12,7 @@
 <?php include_once('conexion.php'); ?>
 
 <main id="main">
-    <section>
+    <section style="margin-top: 50px;">
         <div class="container">
             <div class="row">
                 <div class="left-0 text-center bg-faded p-4 rounded">

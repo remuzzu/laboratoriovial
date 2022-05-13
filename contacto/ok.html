@@ -1,5 +1,5 @@
 <main id="main">
-    <section id="about">
+    <section id="about" style="margin-top: 50px;">
         <div class="container wow fadeInUp">
             <div>
                 <div class="left-0 text-center bg-faded p-4 rounded">
