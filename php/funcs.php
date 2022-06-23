@@ -213,7 +213,8 @@ function enviarEmail($email, $nombre, $asunto, $cuerpo)
 	*/
 	require_once 'PHPMailer/PHPMailerAutoload.php';
 
-	$mail = new PHPMailer();
+	//21/06/22: modificado por apps menos seguras de GMAIL: $mail = new PHPMailer();
+	$mail = new PHPMailer(true);
 
 	$mail->isSMTP();	//Se va a autentificar mediante protocolo SMTP
 	$mail->SMTPAuth = true;		//Acá decimos que se va a autentificar
@@ -225,7 +226,7 @@ function enviarEmail($email, $nombre, $asunto, $cuerpo)
 
 	$correoEmisor = 'noreply.laboratoriovial@gmail.com';
 	$mail->Username = $correoEmisor; //correo electronico de donde se mandarán los mails
-	$mail->Password = 'viaLab2006'; //Modificar
+	$mail->Password = 'gettcfgnxyjflivz';	//'viaLab2006'; //Modificar
 
 	//Vamos a definir el contenido que va a llevar nuestro correo electronico
 	$mail->setFrom($correoEmisor, 'Laboratorio Vial'); //Nombre del emisor
@@ -273,6 +274,9 @@ function enviarEmail($email, $nombre, $asunto, $cuerpo)
 		https://myaccount.google.com/lesssecureapps
 		6. Activar "Permitir el acceso de apps menos segura"
 	*/
+
+	//https://github.com/PHPMailer/PHPMailer
+	//https://www.youtube.com/watch?v=RpSQQIGTpTM
 }
 
 function validaIdToken($id, $token)
